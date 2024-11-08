@@ -1,0 +1,9 @@
+[
+  ["text", "# Reduce\nIn this reports, I describe how to use reduce function in Gradia"],
+  ["text", "Below code is reducing list created by 'range' function, applicate + function to the list"],
+  ["code", "(reduce (range 10) +)"],
+  
+  ["text", "Below code is reducing list that includes string, applicate lambda expression the list"],
+  ["code", "(reduce '(\"Alice\" \"Bob\" \"Carol\") (lambda '(a c) '(concat a \" -> \" c)))"],
+  ["text", "## Conclusion\nreduce function is usable function in Gradia that alternative loop"]
+]
