@@ -1,9 +1,9 @@
 [
-  ["text", "# Reduce\nIn this reports, I describe how to use reduce function in Gradia"],
-  ["text", "Below code is reducing list created by 'range' function, applicate + function to the list"],
+  ["text", "# Reduce\nIn this documentation, I describe how to use reduce function in Gradia"],
+  ["text", "Below code is reducing list created by 'range' function, applicate + function to the number list"],
   ["code", "(reduce (range 10) +)"],
   
-  ["text", "Below code is reducing list that includes string, applicate lambda expression the list"],
-  ["code", "(reduce '(\"Alice\" \"Bob\" \"Carol\") (lambda '(a c) '(concat a \" -> \" c)))"],
-  ["text", "## Conclusion\nreduce function is usable function in Gradia that alternative loop"]
+  ["text", "Below code is reducing list that includes string, applicate lambda expression to the name list"],
+  ["code", "(reduce '(\"Marx\" \"Engels\" \"Lenin\" \"Stalin\") (lambda '(a c) '(concat a \" -> \" c)))"],
+  ["text", "## Conclusion\nreduce is useful function that alternative loop structure in Gradia"]
 ]
